@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QIQO.Prism", "QIQO.Prism\QIQO.Prism.csproj", "{A50FCB15-D4C5-41A4-B463-FF01BD950698}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{3D9CCBC5-52D9-47AE-A48A-A31F2824FBC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleA", "ModuleA\ModuleA.csproj", "{D77E2E6D-8D26-4477-9B78-640168031CFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleB", "ModuleB\ModuleB.csproj", "{50A699A9-7107-44C5-92E8-482054F106D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A50FCB15-D4C5-41A4-B463-FF01BD950698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50FCB15-D4C5-41A4-B463-FF01BD950698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A50FCB15-D4C5-41A4-B463-FF01BD950698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50FCB15-D4C5-41A4-B463-FF01BD950698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D77E2E6D-8D26-4477-9B78-640168031CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77E2E6D-8D26-4477-9B78-640168031CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77E2E6D-8D26-4477-9B78-640168031CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77E2E6D-8D26-4477-9B78-640168031CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A699A9-7107-44C5-92E8-482054F106D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A699A9-7107-44C5-92E8-482054F106D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A699A9-7107-44C5-92E8-482054F106D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A699A9-7107-44C5-92E8-482054F106D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D77E2E6D-8D26-4477-9B78-640168031CFE} = {3D9CCBC5-52D9-47AE-A48A-A31F2824FBC1}
+		{50A699A9-7107-44C5-92E8-482054F106D7} = {3D9CCBC5-52D9-47AE-A48A-A31F2824FBC1}
+	EndGlobalSection
+EndGlobal
